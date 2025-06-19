@@ -116,7 +116,7 @@ python "AI Agent 1/agent.py"
 
 ## 👨‍💻 Author
 
-**[Bhagyesh Patil](https://github.com/BhagyeshPatil2004)**  
+**  [Bhagyesh Patil](https://github.com/BhagyeshPatil2004)**  
 📌 Repo: [RAG-chatbot-Gemini-API-ollama](https://github.com/BhagyeshPatil2004/RAG-chatbot-Gemini-API-ollama)
 
 ---
