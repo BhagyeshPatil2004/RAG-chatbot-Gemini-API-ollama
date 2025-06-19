@@ -16,7 +16,7 @@ echo 'GEMINI_API_KEY="YOUR_GEMINI_API_KEY"' > .env
 # ---------------------------
 # ✅ 3) Create .gitignore
 # ---------------------------
-echo "🗂️  Creating .gitignore..."
+ "🗂️  Creating .gitignore..."
 cat <<EOL > .gitignore
 # Python
 __pycache__/
@@ -36,7 +36,7 @@ EOL
 # ---------------------------
 # ✅ 4) Write README.md
 # ---------------------------
-echo "📝 Writing README.md..."
+"📝 Writing README.md..."
 cat <<EOL > README.md
 # RAG-chatbot-Gemini-API-ollama 🤖
 
@@ -71,14 +71,14 @@ It uses the **original codebasics FAQ dataset** from [this video](https://www.yo
 
 ### 1️⃣ Clone the Repo
 
-\`\`\`bash
+\`\`\`
 git clone https://github.com/BhagyeshPatil2004/RAG-chatbot-Gemini-API-ollama.git
 cd RAG-chatbot-Gemini-API-ollama
 \`\`\`
 
 ### 2️⃣ Setup Python Environment
 
-\`\`\`bash
+\`\`\`
 python -m venv .venv
 # Windows
 .venv\\Scripts\\activate
@@ -94,13 +94,13 @@ Edit \`.env\` and replace with your real API key.
 
 ### 4️⃣ Make sure Ollama is running
 
-\`\`\`bash
+\`\`\`
 ollama pull mxbai-embed-large
 \`\`\`
 
 ### 5️⃣ Run the chatbot
 
-\`\`\`bash
+\`\`\`
 python "AI Agent 1/agent.py"
 \`\`\`
 
@@ -138,10 +138,10 @@ EOL
 # ---------------------------
 # ✅ 6) Setup Python venv + install
 # ---------------------------
-echo "🐍 Creating Python venv..."
+"🐍 Creating Python venv..."
 python -m venv .venv
 
-echo "🐍 Activating venv & installing..."
+"🐍 Activating venv & installing..."
 # Detect OS to activate venv properly
 if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "win32" ]]; then
     .venv\\Scripts\\activate && pip install -r requirements.txt
@@ -158,9 +158,9 @@ ollama pull mxbai-embed-large
 # ---------------------------
 # ✅ Done!
 # ---------------------------
-echo ""
-echo "1️⃣  Add your real Gemini API key in .env"
-echo "2️⃣  Make sure Ollama is running"
-echo "3️⃣  Run your bot: python \"AI Agent 1/agent.py\""
-echo ""
-echo "🔥 Happy!"
+ ""
+"1️⃣  Add your real Gemini API key in .env"
+"2️⃣  Make sure Ollama is running"
+"3️⃣  Run your bot: python \"AI Agent 1/agent.py\""
+""
+"🔥 Happy!"
