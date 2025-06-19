@@ -82,6 +82,7 @@ cd RAG-chatbot-Gemini-API-ollama
 python -m venv .venv
 # Windows
 .venv\\Scripts\\activate
+
 # Linux/Mac
 source .venv/bin/activate
 
@@ -109,7 +110,9 @@ python "AI Agent 1/agent.py"
 ## ✅ Notes
 
 - Ollama must be running for embeddings.
+  
 - Gemini API generates answers.
+  
 - Easily swap a bigger dataset for your major project.
 
 ---
@@ -125,29 +128,39 @@ EOL
 # ---------------------------
 # ✅ 5) Create requirements.txt
 # ---------------------------
-echo "📦 Creating requirements.txt..."
-cat <<EOL > requirements.txt
+"📦 Creating requirements.txt..."
+
 langchain
+
 langchain_community
+
 langchain_ollama
+
 langchain_chroma
+
 ollama
+
 python-dotenv
+
 EOL
 
 # ---------------------------
 # ✅ 6) Setup Python venv + install
 # ---------------------------
 "🐍 Creating Python venv..."
+
 python -m venv .venv
 
 "🐍 Activating venv & installing..."
+
 # Detect OS to activate venv properly
+
 if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "win32" ]]; then
     .venv\\Scripts\\activate && pip install -r requirements.txt
+    
 else
     source .venv/bin/activate && pip install -r requirements.txt
-fi
+
 
 # ---------------------------
 # ✅ 7) Pull Ollama embedding model
@@ -160,8 +173,11 @@ ollama pull mxbai-embed-large
 # ---------------------------
  ""
 "1️⃣  Add your real Gemini API key in .env"
+
 "2️⃣  Make sure Ollama is running"
+
 "3️⃣  Run your bot: python \"AI Agent 1/agent.py\""
+
 ""
 
 "🔥 Happy!"
