@@ -116,7 +116,7 @@ python "AI Agent 1/agent.py"
 
 ## 👨‍💻 Author
 
-  **[Bhagyesh Patil](https://github.com/BhagyeshPatil2004)**  
+😎 **[Bhagyesh Patil](https://github.com/BhagyeshPatil2004)**  
 📌 Repo: [RAG-chatbot-Gemini-API-ollama](https://github.com/BhagyeshPatil2004/RAG-chatbot-Gemini-API-ollama)
 
 ---
@@ -152,7 +152,7 @@ fi
 # ---------------------------
 # ✅ 7) Pull Ollama embedding model
 # ---------------------------
-echo "🧠 Pulling Ollama embedding model..."
+"🧠 Pulling Ollama embedding model..."
 ollama pull mxbai-embed-large
 
 # ---------------------------
@@ -163,4 +163,5 @@ ollama pull mxbai-embed-large
 "2️⃣  Make sure Ollama is running"
 "3️⃣  Run your bot: python \"AI Agent 1/agent.py\""
 ""
+
 "🔥 Happy!"
